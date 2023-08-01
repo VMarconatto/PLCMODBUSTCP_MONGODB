@@ -1,2 +1,2 @@
 # PLCMODBUSTCP_MONGODB
- Exemplo de uma simples conexão entre PLCS71500 com Mongo DB e NODE JS
+ Conexão unico device MODBUSTCP entre PLCS71500 com Mongo DB e NODE JS
