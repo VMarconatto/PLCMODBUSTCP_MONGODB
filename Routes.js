@@ -1,6 +1,6 @@
 
 const mongoose = require(`mongoose`)
-const device = require(`./src/controllers/ModbusTCPClass.js`)
+const Device = require(`./src/controllers/ModbusTCPClass.js`)
 const express = require('express')
 const route = express.Router()
 const DeviceModel = require('./src/model/modbusdevicemodel.js')
