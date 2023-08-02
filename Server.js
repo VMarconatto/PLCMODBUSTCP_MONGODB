@@ -6,7 +6,7 @@ const route = require('./Routes')
 
 mongoose.connect(process.env.connectionstring,{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=>{
-    console.log('Conexão com Mongo DB Cluster 0, DataBase Udemy')
+    console.log('Conexão com Mongo DB Cluster 0, DataBase')
     app.emit('Pronto')
 })
 .catch((e)=>{
